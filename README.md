@@ -1,6 +1,6 @@
 # Angular 6 GIPHY API Search
 
-Using Angular 6 and the GIPHY API to retrieve GIFS.
+Using Angular 6 + TypeScript and the GIPHY API to retrieve GIFS.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
 
@@ -10,7 +10,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## How to get a GIPHY API Key?
 
-[Here](https://developers.giphy.com/docs/) Create an account, login, and get your key. 
+[Here!](https://developers.giphy.com/docs/) Create an account, login, and get your key. 
 
 ## I got the key, where do I put it?
 
