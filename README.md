@@ -1,4 +1,6 @@
-# AngularGiphy
+# Angular 6 GIPHY API Search
+
+Using Angular 6 and the GIPHY API to retrieve GIFS.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
 
@@ -6,22 +8,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## How to get a GIPHY API Key?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[Here](https://developers.giphy.com/docs/) Create an account, login, and get your key. 
 
-## Build
+## I got the key, where do I put it?
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+On line 22, in `giphy-service.service.ts` place your key after the `=` of the `apiUrl`. After that search away!
 
-## Running unit tests
+## Tech
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Angular 6
+TypeScript
+RXJS
+Bootstrap 4
