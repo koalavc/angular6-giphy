@@ -18,7 +18,7 @@ On line 22, in `giphy-service.service.ts` place your key after the `=` of the `a
 
 ## Tech
 
-Angular 6
-TypeScript
-RXJS
-Bootstrap 4
+- Angular 6
+- TypeScript
+- RXJS
+- Bootstrap 4
